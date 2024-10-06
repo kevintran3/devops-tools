@@ -1,7 +1,7 @@
 FROM hashicorp/vault:1.15
 
 # Install git python3
-RUN apk add --no-cache git python3 py3-pip jq
+RUN apk add --no-cache git python3 py3-pip jq go libc6-compat
 
 # Install docker
 RUN apk add --no-cache docker openrc
