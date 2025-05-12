@@ -1,4 +1,4 @@
-FROM hashicorp/vault:1.15
+FROM hashicorp/vault:1.19
 
 # Install git python3
 RUN apk add --no-cache git python3 py3-pip jq go libc6-compat
